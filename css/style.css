@@ -987,15 +987,7 @@ body {
 .swiper_img {
     position: relative;
 
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    object-fit: contain
+    text-align: center;
 }
 
 .swiper_img.three img {
@@ -2905,13 +2897,7 @@ body {
     }
 
     .swiper_img {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        object-fit: contain;
+        text-align: center;
     }
 
     .offer {
