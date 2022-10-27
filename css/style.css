@@ -1000,10 +1000,12 @@ body {
 
 .swiper_img.three img {
     width: 70%;
+    height: 70%;
 }
 
 .swiper_img.second img {
     width: 54%;
+    height: 54%;
 }
 
 .swiper_info.three {
