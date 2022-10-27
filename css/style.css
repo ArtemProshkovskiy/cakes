@@ -758,6 +758,9 @@ body {
        transform: rotate(135deg);
     -webkit-transform: translate(4px, 0px) rotate(135deg);
 }
+.swiper_img img {
+    max-width: 100%;
+}
 
 
 .slider-container .bar {
@@ -1005,11 +1008,11 @@ body {
 }
 
 .swiper_img.three img {
-    width: 70%;
+    max-width: 70%;
 }
 
 .swiper_img.second img {
-    width: 54%;
+    max-width: 54%;
 }
 
 .swiper_info.three {
@@ -2797,7 +2800,7 @@ body {
 
     .swiper_img img {
         width: 300px;
-        max-height: 100%;
+
     }
 
     .swiper_img {
@@ -3421,7 +3424,7 @@ body {
     }
 
     .swiper_img img {
-        width: 175px;
+        max-width: 175px;
     }
 
     .offer {
@@ -3460,11 +3463,11 @@ body {
     }
 
     .swiper_img.second img {
-        width: 51%;
+        max-width: 51%;
     }
 
     .swiper_img.three img {
-        width: 62%;
+        max-width: 62%;
     }
 
     .text_info_on.three {
