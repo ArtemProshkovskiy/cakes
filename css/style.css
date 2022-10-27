@@ -568,13 +568,7 @@ body {
     list-style: none;
 }
 
-.dropdown .sterlka {
-    margin-left: 50px;
-}
 
-.dropdown.second .sterlka {
-    margin-left: 34px;
-}
 
 .sterlka {
     position: absolute;
@@ -586,7 +580,7 @@ body {
     height: 13px;
     border-top: 2px solid #f3b384;
     border-right: 2px solid #f3b384;
-    rotate: 135deg;
+    transform: rotate(135deg);
 
     -webkit-transition: all ease 0.3s;
 
@@ -597,7 +591,7 @@ body {
 }
 
 .sterlka.rotate {
-    rotate: -42deg;
+    transform: rotate(-42deg);
 
     margin-top: 20px;
 }
@@ -1021,9 +1015,8 @@ body {
 .swiper_info.three {
     margin-bottom: 35px
 }
-
-.text_info_on {
-    font-family: 'Playfair Display';
+.text_info_on span{
+     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -1031,7 +1024,8 @@ body {
 
     color: #391E04;
     text-align: center;
-
+}
+.text_info_on {
     background: rgba(245, 180, 132, 0.7);
     border-radius: 71px;
     padding: 11px 0px;
@@ -1040,6 +1034,7 @@ body {
     position: absolute;
     left: 224px;
     top: 317px;
+    text-align: center;
 }
 
 .offer {
@@ -2802,6 +2797,7 @@ body {
 
     .swiper_img img {
         width: 300px;
+        max-height: 100%;
     }
 
     .swiper_img {
@@ -2825,8 +2821,11 @@ body {
         top: 239px;
 
         width: 175px;
-        font-size: 20px;
+
         padding: 5px 0px;
+    }
+    .text_info_on span {
+        font-size: 20px;
     }
 
     .swiper-slide {
@@ -3432,12 +3431,14 @@ body {
     }
 
     .text_info_on {
-        font-size: 14px;
         width: 135px;
         padding: 0px 0px;
 
         left: 88px;
         top: 237px;
+    }
+    .text_info_on span {
+        font-size: 14px;
     }
 
     .price_cakes span {
