@@ -758,9 +758,6 @@ body {
        transform: rotate(135deg);
     -webkit-transform: translate(4px, 0px) rotate(135deg);
 }
-.swiper_img img {
-    max-width: 100%;
-}
 
 
 .slider-container .bar {
@@ -1009,11 +1006,11 @@ body {
 }
 
 .swiper_img.three img {
-    max-width: 70%;
+    width: 70%;
 }
 
 .swiper_img.second img {
-    max-width: 54%;
+    width: 54%;
 }
 
 .swiper_info.three {
@@ -3425,7 +3422,7 @@ body {
     }
 
     .swiper_img img {
-        max-width: 175px;
+        width: 175px;
     }
 
     .offer {
@@ -3464,11 +3461,11 @@ body {
     }
 
     .swiper_img.second img {
-        max-width: 51%;
+        width: 51%;
     }
 
     .swiper_img.three img {
-        max-width: 62%;
+        width: 62%;
     }
 
     .text_info_on.three {
