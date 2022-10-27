@@ -3758,30 +3758,35 @@ body {
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
+        color: #391E04;
     }
 
     ::-moz-placeholder {
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
+        color: #391E04;
     }
 
     :-ms-input-placeholder {
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
+        color: #391E04;
     }
 
     ::-ms-input-placeholder {
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
+        color: #391E04;
     }
 
     ::placeholder {
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
+        color: #391E04;
     }
 
     .payment_title {
